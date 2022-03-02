@@ -1,1 +1,1 @@
-Projekt lze rozjet po pullnuti z repository a nainstalovani dependencies (npm install) a pak jednoduse pomoci npm start. 
+Projekt lze rozjet po nainstalovani dependencies (npm install) a pak jednoduse pomoci npm start. 
