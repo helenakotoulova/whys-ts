@@ -1,0 +1,22 @@
+.article {
+    width:100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+    padding:1.5rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.author {
+    font:inherit;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 0;
+    color:teal;
+}
+
+
+.text {
+    text-align: justify;
+    margin-top: 1rem;
+}

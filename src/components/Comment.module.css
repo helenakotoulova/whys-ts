@@ -1,0 +1,58 @@
+.title {
+  margin-top: 0;
+  color: teal;
+  text-align: center;
+  font: inherit;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  align-self: center;
+}
+
+
+.button {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: teal;
+  color: white;
+  font: inherit;
+  font-size:1rem;
+  border: 1px solid teal;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: #03afaf;
+  border: 1px solid #03afaf;
+}
+
+.special {
+  animation: bump 0.3s ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@media (min-width:768px) {
+    .button {
+        max-width:15rem;
+        font-size: 1.1rem;
+    }
+}
